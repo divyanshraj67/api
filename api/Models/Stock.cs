@@ -14,5 +14,5 @@ public class Stocks
     public decimal Dividend { get; set; } = decimal.Zero;
     public string  Industry { get; set; } = string.Empty;
     public long MarketCap { get; set; }
-    public List<Comment> Comments { get; set; } = new List<Comment>
+    public List<Comment> Comments { get; set; } = new List<Comment>; //check vid 2
 }
